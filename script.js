@@ -10,22 +10,22 @@ const translations = {
         question2: "2. Yetenek mi silah mı?",
         q2_opt1: "Yetenek",
         q2_opt2: "Silah",
-        q2_opt3: "Denge",
+        q2_opt3: "Dengeli",
 
-        question3: "3. Harita kontrolü mü giriş mi?",
-        q3_opt1: "Harita kontrolü",
-        q3_opt2: "Giriş yapmayı severim",
-        q3_opt3: "Bilgi toplamak",
+        question3: "3. Harita kontrolü mü, giriş mi?",
+        q3_opt1: "Alan Kontrolü (Smoke)",  // "Harita kontrolü" yerine
+        q3_opt2: "Site'a Girmek (Entry)",   // "Giriş yapmayı severim" yerine
+        q3_opt3: "Bilgi Toplamak (Info)",
 
         question4: "4. Ekibinizde hangi rolü üstlenirsiniz?",
-        q4_opt1: "Giriş",
-        q4_opt2: "Duman",
-        q4_opt3: "Destek",
+        q4_opt1: "Öncü (Fragger)",         // "Giriş" yerine
+        q4_opt2: "Stratejist (Smoke)",     // "Duman" yerine
+        q4_opt3: "Tamamlayıcı (Support)",  // "Destek" yerine
 
-        question5: "5. Oyun sonu (clutch) durumlarında nasıl davranırsınız?",
-        q5_opt1: "Pusarım",
-        q5_opt2: "Yüzleşirim",
-        q5_opt3: "Kaçarım",
+        question5: "5. Clutch (teke tek) durumlarında ne yaparsın?",
+        q5_opt1: "Lurk (Sinsi) oynarım",   // "Pusarım" yerine
+        q5_opt2: "Düelloya girerim",       // "Yüzleşirim" yerine
+        q5_opt3: "Zamana/Taktiksel oynarım", // "Kaçarım" yerine (Burası çok daha iyi oldu)
 
         question6: "6. Hangi silahı sıklıkla kullanırsınız?",
         q6_opt1: "Operatör",
@@ -51,19 +51,19 @@ const translations = {
         q2_opt3: "Balance",
 
         question3: "3. Map control or entry?",
-        q3_opt1: "Map control",
-        q3_opt2: "I like to entry",
-        q3_opt3: "Gather information",
+        q3_opt1: "Area Control (Smoke)",
+        q3_opt2: "Site Entry",
+        q3_opt3: "Gather Intel",
 
-        question4: "4. What role do you take in your team?",
-        q4_opt1: "Entry",
-        q4_opt2: "Smoke",
-        q4_opt3: "Support",
+        question4: "4. What is your role in the team?",
+        q4_opt1: "Fragger",
+        q4_opt2: "Strategist",
+        q4_opt3: "Support / Flex",
 
-        question5: "5. How do you act in clutch situations?",
-        q5_opt1: "I lurk",
-        q5_opt2: "I confront",
-        q5_opt3: "I escape",
+        question5: "5. How do you handle clutch situations?",
+        q5_opt1: "I Lurk",
+        q5_opt2: "Take the duel",
+        q5_opt3: "Play for time / Tactical",
 
         question6: "6. Which weapon do you use frequently?",
         q6_opt1: "Operator",
