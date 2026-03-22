@@ -1,61 +1,50 @@
-# 🎯 Valorant Ajan Önerici (Valorant Agent Recommender)
+# Valorant App
 
-[English](#english) | [Türkçe](#türkçe)
+![GitHub language count](https://img.shields.io/github/languages/count/SertacAGA/valorant-app) ![GitHub top language](https://img.shields.io/github/languages/top/SertacAGA/valorant-app) ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
----
+## Description
 
-## 🇹🇷 Türkçe
+This project is a Valorant application that helps players with various game-related functionalities.
 
-**Valorant Ajan Önerici**, oyun stilinize, tercih ettiğiniz silahlara ve rol yeteneklerinize göre size en uygun Valorant ajanını bulan web tabanlı bir araçtır.
+## Installation
 
-"Hangi ajanı mainlemeliyim?" sorusunu soran yeni başlayanlar veya oyun stilini değiştirmek isteyenler için tasarlanmıştır.
+To get a local copy up and running, follow these simple steps:
 
-### 🚀 Özellikler
-* **Kişiselleştirilmiş Sorular:** Oyun içi davranışlarınızı analiz eden 6 temel soru.
-* **Akıllı Puanlama Algoritması:** Verdiğiniz cevaplara göre agresiflik, gizlilik, takım oyunu ve yetenek kullanımı puanlarını hesaplar.
-* **Çoklu Dil Desteği:** Türkçe ve İngilizce dil seçenekleri.
-* **Mobil Uyumlu Tasarım:** Telefon ve tabletlerde sorunsuz çalışır.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/SertacAGA/valorant-app.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd valorant-app
+   ```
+3. Install the required packages
+   ```sh
+   npm install
+   ```
 
-### 🛠️ Teknolojiler
-* HTML5
-* CSS3 (Responsive Design)
-* Vanilla JavaScript (ES6+)
+## Usage
 
-### kullanım
-Projeyi kendi bilgisayarınızda çalıştırmak için:
-1.  Bu depoyu (repository) klonlayın veya ZIP olarak indirin.
-2.  `index.html` dosyasını tarayıcınızda açın.
-3.  Soruları cevaplayın ve sizin için seçilen ajanları görün!
+After installing the required packages, run the application:
+```sh
+npm start
+```
 
----
+## Contributing
 
-## 🇺🇸 English
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-**Valorant Agent Recommender** is a web-based tool that finds the most suitable Valorant agent for you based on your playstyle, preferred weapons, and role capabilities.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Designed for beginners asking "Who should I main?" or players looking to switch up their playstyle.
+## License
 
-### 🚀 Features
-* **Personalized Questions:** 6 key questions analyzing your in-game behavior.
-* **Smart Scoring Algorithm:** Calculates scores for aggressiveness, stealth, teamplay, and utility based on your answers.
-* **Multi-language Support:** Available in Turkish and English.
-* **Mobile Responsive:** Works smoothly on phones and tablets.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### 🛠️ Tech Stack
-* HTML5
-* CSS3 (Responsive Design)
-* Vanilla JavaScript (ES6+)
+## Acknowledgements
 
-### How to Use
-To run the project locally:
-1.  Clone this repository or download as ZIP.
-2.  Open the `index.html` file in your browser.
-3.  Answer the questions and see your recommended agents!
-
----
-
-### 📸 Ekran Görüntüleri / Screenshots
-
-*(Buraya uygulamanın ekran görüntülerini ekleyin / Add screenshots here)*
-`![Soru Ekranı](images/screenshot1.png)`
-`![Sonuç Ekranı](images/screenshot2.png)`
+- [Valorant](https://playvalorant.com/) - The game itself
+- [OpenAI](https://openai.com/) - For providing tools for development
